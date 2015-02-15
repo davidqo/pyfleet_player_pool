@@ -1,0 +1,11 @@
+{application, pyfleet_player_pool,
+ [
+  {description, "A Pyfleet Game player session pool library"},
+  {vsn, "0.1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
